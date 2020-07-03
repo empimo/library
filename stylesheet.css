@@ -1,0 +1,68 @@
+body { color: #e74c3c; background: #23456a; font: 0.85em Calibri, Cmath, sans-serif; text-align: center; line-height: 1.6em; margin: 2.5em 0; }
+a { color: #214466; background: inherit; }
+a:hover { color: #000; background: inherit; }
+h2 {font-size: 1.4em;}
+ul { margin: .6em 0; padding: 25;}
+.clear {	clear: both; margin: 0 0 .5em 0;text-align:center; }
+
+#wrapper { width: 90%; margin: 0 auto; text-align: left;color:white; }
+
+#logo h1 {
+	float: left;
+	color: #fff;
+	background: inherit;
+	margin: 0 0 .2em .2em;
+	padding: 0;
+	font-size: 0.85em;
+	font-family: Arial;
+	
+}
+	
+#top {
+	float: right;
+	margin: 0 2em 0 0;
+	color: #fff
+}
+			
+#menu { clear: both; margin: 0 2% 1em 1%; padding: 7px 0 7px 0; border-bottom: 1px solid #DCDBD5; border-top: 1px solid #DCDBD5; text-align: center;}
+#menu li { display: inline;}
+#menu a { padding: 3px 15px; margin: 0 3px 0 0; text-decoration: none; color: #fff; background: inherit; }
+#menu a.current { color: #000; background: #abcdef; }
+#menu a:hover { background: #fff; color: #444;}
+
+.column {
+	float: left;
+	width: 29%;
+	margin: .3em 1.1%;
+	background: #9abcde;
+	color: #303030;
+	padding: 1% 1%;
+}	
+.column h1 {
+	margin: 1% 0;
+	padding: 0;
+	color: #214466;
+	background: inherit;
+	font-size: 1.5em;
+}
+		
+.number {
+	background: #555;
+	padding: .6% 3%;
+	color: #FFF;
+}
+		
+.half {
+	float: left;
+	width: 45.6%;
+	margin: 1em 1.1%;
+	background: #9abcde;
+	color: #303030;
+	padding: .5% 1%;
+}
+
+.date { border-top: 1px dotted #ccc; padding: 5px 0;}
+			
+.news { background: #9abcde; color: #000; padding: .7em 1em; margin: 0 1%; }
+
+#footer { margin: 2em 3%; text-align: center; color: #fff}
